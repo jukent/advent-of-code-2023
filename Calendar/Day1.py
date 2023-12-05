@@ -1,7 +1,8 @@
 # Part 1
 
+#from aocd.models import Puzzle 
+#data = Puzzle(2023, 1).input_data.split('\n')
 filename = 'calibration_input.txt'
-
 with open(filename, 'r') as datafile:
     data = datafile.read().split()
 

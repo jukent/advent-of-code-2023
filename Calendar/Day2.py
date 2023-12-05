@@ -1,5 +1,8 @@
 # Part 1
 
+#from aocd.models import Puzzle 
+#data = Puzzle(2023, 2).input_data.split('\n')
+
 filename = 'game_input.txt'
 
 colors = {'red': 12, 

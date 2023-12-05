@@ -1,10 +1,12 @@
 import numpy as np
 import re
 
+#from aocd.models import Puzzle 
+#data = Puzzle(2023, 3).input_data.split('\n')
+
 # Part 1
 
 filename = 'engine_schematic.txt'
-
 with open(filename, 'r') as datafile:
     data = datafile.read().split()
 

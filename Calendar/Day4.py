@@ -1,5 +1,9 @@
-filename = 'cards.txt'
+#from aocd.models import Puzzle 
+#data = Puzzle(2023, 4).input_data.split('\n')
 
+# Part 1
+
+filename = 'cards.txt'
 with open(filename, 'r') as datafile:
     data = datafile.readlines()
 
